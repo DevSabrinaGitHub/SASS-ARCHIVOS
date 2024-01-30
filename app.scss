@@ -1,0 +1,15 @@
+//app.scss es el archivo principal
+//por lo tanto en el archivo principal debo poner los imports para que sepa que la existencia de los otros nuevos archivos _archivo para aplicar los codigos originales en app.scss
+
+//esta sintaxis import es la version anterior
+//importo el archivo variables de la carpeta base, para que luego aplique los estilos a app.scss
+@import 'base/variables';
+
+
+//cada vez que creo un archivo, debo poner siempre los imports. ej: @import 'carpeta/archivo';
+
+
+
+body{
+    background-color: $color;
+}
